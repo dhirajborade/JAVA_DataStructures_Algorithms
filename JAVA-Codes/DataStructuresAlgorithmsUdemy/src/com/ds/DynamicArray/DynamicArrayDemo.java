@@ -1,4 +1,4 @@
-package com.ds.dynamicarray;
+package com.ds.DynamicArray;
 
 public class DynamicArrayDemo {
 

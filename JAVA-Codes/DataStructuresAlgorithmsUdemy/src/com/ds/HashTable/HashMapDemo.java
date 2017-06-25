@@ -1,4 +1,4 @@
-package com.ds.hashtable;
+package com.ds.HashTable;
 
 import java.util.Random;
 
