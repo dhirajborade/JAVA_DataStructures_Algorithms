@@ -1,8 +1,9 @@
+package com.ds.dynamicarray;
 
 public class DynamicArrayDemo {
 
 	public static void main(String[] args) {
-		DynamicArrayClass<Integer> myDArray = new DynamicArrayClass<Integer>();
+		DynamicArray<Integer> myDArray = new DynamicArray<Integer>();
 		myDArray.putElement(10);
 		System.out.println("Size: " + myDArray.getSize());
 		myDArray.putElement(23);
@@ -17,10 +18,10 @@ public class DynamicArrayDemo {
 		System.out.println("Size: " + myDArray.getSize());
 		myDArray.putElement(44);
 		System.out.println("Size: " + myDArray.getSize());
-		for (int i = 0 ; i < myDArray.getSize() ; i++) {
+		for (int i = 0; i < myDArray.getSize(); i++) {
 			System.out.println(myDArray.getElement(i));
 		}
-		
+
 	}
 
 }
