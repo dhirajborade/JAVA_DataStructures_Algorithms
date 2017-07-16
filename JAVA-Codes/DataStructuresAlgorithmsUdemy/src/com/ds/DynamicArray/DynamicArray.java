@@ -21,9 +21,8 @@ public class DynamicArray<T> {
 	public T getElement(int index) {
 		return (T) this.data[index];
 	}
-
-	public void putElement(Object element) {
-		this.requiredCapacity = this.size + 1;
+	
+	public void checkCapacity(int requiredCapacity) {
 		this.currentCapacity = this.getSize();
 		if (this.requiredCapacity > this.currentCapacity) {
 			this.newCapacity = this.currentCapacity * 2;
@@ -32,6 +31,11 @@ public class DynamicArray<T> {
 			}
 			this.data = Arrays.copyOf(data, newCapacity);
 		}
+	}
+
+	public void putElement(Object element) {
+		this.requiredCapacity = this.size + 1;
+		this.checkCapacity(this.requiredCapacity);
 		data[size++] = element;
 	}
 

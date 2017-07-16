@@ -1,9 +1,9 @@
 package com.ds.LinkedList;
 
 public class DoubleLinkedListNode {
-	Object value;
-	DoubleLinkedListNode next;
-	DoubleLinkedListNode previous;
+	public Object value;
+	public DoubleLinkedListNode next;
+	public DoubleLinkedListNode previous;
 	
 	public DoubleLinkedListNode(Object value, DoubleLinkedListNode next, DoubleLinkedListNode previous) {
 		this.value = value;
