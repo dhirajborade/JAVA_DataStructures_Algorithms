@@ -6,3 +6,4 @@ Data Structures and Algorithms in JAVA
 2. Dynamic Array
 3. LRU Cache using Doubly Linked List
 4. Hashing Algorithm (HashTable Implementation)
+5. Stack implementation using Array, Dynamic Array and Linked List
