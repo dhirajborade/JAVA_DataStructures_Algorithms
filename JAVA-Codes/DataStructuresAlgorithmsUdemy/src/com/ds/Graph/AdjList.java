@@ -1,4 +1,4 @@
-package com.ds.graphs;
+package com.ds.Graph;
 
 public class AdjList {
 

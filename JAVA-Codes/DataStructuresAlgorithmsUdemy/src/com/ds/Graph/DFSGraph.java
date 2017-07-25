@@ -1,4 +1,4 @@
-package com.ds.graphs;
+package com.ds.Graph;
 
 import java.util.Stack;
 
